@@ -163,9 +163,10 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(7, 64);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(334, 13);
+            this.label6.Size = new System.Drawing.Size(570, 13);
             this.label6.TabIndex = 10;
-            this.label6.Text = "You can also click the revert changes button to reset the taskbar sixe";
+            this.label6.Text = "You can also click the revert changes button to reset the taskbar sixe and click " +
+    "the kill explorer and start explorer button\r\n";
             // 
             // label7
             // 
@@ -179,7 +180,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(370, 80);
+            this.button4.Location = new System.Drawing.Point(370, 103);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(147, 23);
             this.button4.TabIndex = 12;
