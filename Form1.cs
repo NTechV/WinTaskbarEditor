@@ -64,7 +64,7 @@ namespace WinTaskbarEditor
 
                 RegistryKey xkey = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced", true);
                 xkey.SetValue("TaskbarSi", "2", RegistryValueKind.DWord);
-
+                
             }
         }
 
@@ -105,6 +105,14 @@ namespace WinTaskbarEditor
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+           
+            RegistryKey xf = Registry.CurrentUser.OpenSubKey(@"Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced", true);
+            xf.DeleteValue("TaskbarSi");
+            xf.Close();
         }
     }
 }

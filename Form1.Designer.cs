@@ -39,6 +39,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -54,7 +57,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(171, 212);
+            this.button2.Location = new System.Drawing.Point(171, 235);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(104, 19);
@@ -111,7 +114,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(171, 270);
+            this.button3.Location = new System.Drawing.Point(171, 290);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(104, 19);
@@ -127,9 +130,10 @@
             this.label3.Location = new System.Drawing.Point(35, 184);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(941, 26);
+            this.label3.Size = new System.Drawing.Size(482, 26);
             this.label3.TabIndex = 7;
-            this.label3.Text = resources.GetString("label3.Text");
+            this.label3.Text = "Note: you will need to press the kill button, Apply and then start explorer butto" +
+    "n because windows 11 \r\n\r\n";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
@@ -154,11 +158,43 @@
     " taskmgr or typing the following commands: taskkill /f /im explorer.exe and expl" +
     "orer and you are done!\r\n";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(7, 64);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(334, 13);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "You can also click the revert changes button to reset the taskbar sixe";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(35, 210);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(466, 13);
+            this.label7.TabIndex = 11;
+            this.label7.Text = "does not allow changing taskbar postion while running explorer without killing an" +
+    "d starting explorer";
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(370, 80);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(147, 23);
+            this.button4.TabIndex = 12;
+            this.button4.Text = "Revert Taskbar Size";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(992, 320);
+            this.ClientSize = new System.Drawing.Size(947, 361);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -170,7 +206,9 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "WinTaskbarEditor";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -191,6 +229,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button4;
     }
 }
 
