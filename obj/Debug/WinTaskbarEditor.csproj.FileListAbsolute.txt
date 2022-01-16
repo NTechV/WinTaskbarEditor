@@ -1,0 +1,11 @@
+F:\NTechV\Projects\WinTaskbarEditor\WinTaskbarEditor\bin\Debug\WinTaskbarEditor.exe.config
+F:\NTechV\Projects\WinTaskbarEditor\WinTaskbarEditor\bin\Debug\WinTaskbarEditor.exe
+F:\NTechV\Projects\WinTaskbarEditor\WinTaskbarEditor\bin\Debug\WinTaskbarEditor.pdb
+F:\NTechV\Projects\WinTaskbarEditor\WinTaskbarEditor\obj\Debug\WinTaskbarEditor.csproj.AssemblyReference.cache
+F:\NTechV\Projects\WinTaskbarEditor\WinTaskbarEditor\obj\Debug\WinTaskbarEditor.csproj.SuggestedBindingRedirects.cache
+F:\NTechV\Projects\WinTaskbarEditor\WinTaskbarEditor\obj\Debug\WinTaskbarEditor.Form1.resources
+F:\NTechV\Projects\WinTaskbarEditor\WinTaskbarEditor\obj\Debug\WinTaskbarEditor.Properties.Resources.resources
+F:\NTechV\Projects\WinTaskbarEditor\WinTaskbarEditor\obj\Debug\WinTaskbarEditor.csproj.GenerateResource.cache
+F:\NTechV\Projects\WinTaskbarEditor\WinTaskbarEditor\obj\Debug\WinTaskbarEditor.csproj.CoreCompileInputs.cache
+F:\NTechV\Projects\WinTaskbarEditor\WinTaskbarEditor\obj\Debug\WinTaskbarEditor.exe
+F:\NTechV\Projects\WinTaskbarEditor\WinTaskbarEditor\obj\Debug\WinTaskbarEditor.pdb
